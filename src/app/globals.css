@@ -16,6 +16,18 @@
   --color-emerald-500: #10b981;
   --color-amber-500: #f59e0b;
   --color-orange-500: #f97316;
+
+  --color-restaubee-navy: #050c1c;
+  --color-restaubee-red: #c42e3b;
+  --color-restaubee-gray: #f8f9fa;
+
+  --animate-scroll: scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite;
+
+  @keyframes scroll {
+    to {
+      transform: translate(calc(-50% - 0.5rem));
+    }
+  }
 }
 
 @variant dark (&:where(.dark, .dark *));

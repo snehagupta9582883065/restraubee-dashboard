@@ -50,7 +50,7 @@ export default function LoginPage() {
                 // Update global state and localStorage
                 login(token || "", role, name);
 
-                router.push("/");
+                router.push("/dashboard");
             } else {
                 setError(data.message || "Invalid credentials. Please try again.");
             }

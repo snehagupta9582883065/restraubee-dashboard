@@ -16,7 +16,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Restrau Bee Admin",
+  title: "Restrau Bee",
   description: "POS Analytics Dashboard",
 };
 

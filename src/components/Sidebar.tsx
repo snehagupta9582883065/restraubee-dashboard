@@ -17,14 +17,14 @@ import {
 import { cn } from "@/lib/utils";
 
 const navItems = [
-    { icon: LayoutDashboard, label: 'Dashboard', href: '/' },
-    { icon: ShoppingCart, label: 'Orders', href: '/orders' },
-    { icon: Package, label: 'Products', href: '/products' },
-    { icon: BarChart3, label: 'Analytics', href: '/analytics' },
-    { icon: Users, label: 'Customers', href: '/customers' },
-    { icon: Hexagon, label: 'Branches', href: '/branches' },
-    { icon: ShieldCheck, label: 'Admins', href: '/admins' },
-    { icon: Settings, label: 'Settings', href: '/settings' },
+    { icon: LayoutDashboard, label: 'Dashboard', href: '/dashboard' },
+    { icon: ShoppingCart, label: 'Orders', href: '/dashboard/orders' },
+    { icon: Package, label: 'Products', href: '/dashboard/products' },
+    { icon: BarChart3, label: 'Analytics', href: '/dashboard/analytics' },
+    { icon: Users, label: 'Customers', href: '/dashboard/customers' },
+    { icon: Hexagon, label: 'Branches', href: '/dashboard/branches' },
+    { icon: ShieldCheck, label: 'Admins', href: '/dashboard/admins' },
+    { icon: Settings, label: 'Settings', href: '/dashboard/settings' },
 ];
 
 

@@ -67,7 +67,7 @@ export default function AdminsPage() {
         // Map the display role to our system roles
         const systemRole: UserRole = role === 'Super Admin' ? 'super-admin' : role === 'User' ? 'user' : 'admin';
         switchRole(systemRole);
-        router.push('/');
+        router.push('/dashboard');
     };
 
     // Add mock user for testing user role
